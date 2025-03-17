@@ -5,6 +5,7 @@
 ## - pandas
 ## - dataframme y tabulares
 ## - como abrir un csv con la libreria pandas
+## - abrir csv con pandas
 
 ## 1)_ 
   Decimos que manejamos grandes volúmenes de datos cuando tenemos que trabajar con conjuntos de datos que superan las capacidades de las herramientas tradicionales de procesamiento, almacenamiento y análisis. Generalmente, esto se refiere a situaciones en las que:
