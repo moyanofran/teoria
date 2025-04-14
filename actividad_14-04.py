@@ -100,6 +100,19 @@ print(df.head)
 
 
 
+#sumar la fila de varias columnas
+import pandas as pd
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"]+df['reading score']+df['writing score'])
+
+#
+
+
+
+
+
+
+
 
 
 
