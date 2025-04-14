@@ -6,6 +6,12 @@ df["nueva columna"] = 70
 
 print(df)
 
+
+
+
+
+
+
 #actividad 2 crear una columna a traves de un arreglo
 import numpy as np
 import pandas as pd
@@ -36,3 +42,66 @@ a=np.random.uniform(1,100,size=1000)
 df['columna de arreglo'] = a
 
 print(df)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#crear una columna con numeros
+import pandas as pd
+
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"].sum)# .sum (suma)
+print(df.head)
+
+#actividad 2
+import pandas as pd
+
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"].count)# .count (cuenta)
+print(df.head)
+
+#actividad 3
+
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"].median)# .median (media)
+print(df.head)
+
+#actividad 4
+
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"].std)# .std (moda)
+print(df.head)
+
+#actividad 5
+
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"].max)# .max (maximo)
+print(df.head)
+
+#actividad 6
+
+df=pd.read_csv('StudentsPerfonmance.csv')
+print(df["math score"].min)# .min (mimnimo)
+print(df.head)
+
+
+
+
+
+
+
+
+
+
+
+
+
